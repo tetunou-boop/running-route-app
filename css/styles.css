@@ -175,6 +175,12 @@ body {
   background: #eaf3ee;
 }
 
+.abbr-chip--active {
+  background: var(--jr-green);
+  border-color: var(--jr-green);
+  color: #fff;
+}
+
 .result-count {
   margin: 0 4px 10px;
   font-size: 0.85rem;

@@ -39,6 +39,8 @@
     query: ""
   };
 
+  let syncAbbrChips = () => {};
+
   const els = {
     searchInput: document.getElementById("search-input"),
     prefSelect: document.getElementById("pref-select"),
@@ -146,19 +148,38 @@
 
     els.abbrToggleCount.textContent = `(${withAbbr.length}社)`;
     els.abbrPanel.innerHTML = "";
+    const chips = [];
+
+    const syncChips = () => {
+      chips.forEach((chip) => {
+        chip.classList.toggle("abbr-chip--active", chip.dataset.abbr === state.query);
+      });
+    };
+
     withAbbr.forEach((company) => {
       const chip = document.createElement("button");
       chip.type = "button";
       chip.className = "abbr-chip";
       chip.textContent = company.abbreviation;
       chip.title = company.name;
+      chip.dataset.abbr = company.abbreviation;
       chip.addEventListener("click", () => {
-        state.query = company.abbreviation;
-        els.searchInput.value = company.abbreviation;
+        if (state.query === company.abbreviation) {
+          // 選択済みの略称をもう一度押したらリセット
+          state.query = "";
+          els.searchInput.value = "";
+        } else {
+          state.query = company.abbreviation;
+          els.searchInput.value = company.abbreviation;
+        }
+        syncChips();
         render();
       });
+      chips.push(chip);
       els.abbrPanel.appendChild(chip);
     });
+
+    syncAbbrChips = syncChips;
 
     els.abbrToggle.addEventListener("click", () => {
       const expanded = els.abbrToggle.getAttribute("aria-expanded") === "true";
@@ -314,6 +335,7 @@
   function bindGlobalEvents() {
     els.searchInput.addEventListener("input", (e) => {
       state.query = e.target.value.trim();
+      syncAbbrChips();
       render();
     });
 
