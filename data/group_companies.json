@@ -55,7 +55,7 @@
           "name": "JR東日本レンタリース株式会社",
           "hq": "東京都千代田区神田練塀町85",
           "url": "https://www.jrerl.co.jp/",
-          "description": "レンタカー・リース事業",
+          "description": "レンタカー・リース事業（駅レンタカー「とれんた」等）",
           "founded": "1992年3月1日",
           "capital": "1億6,500万円",
           "employees": "362名（2026年1月1日時点）",
@@ -255,7 +255,7 @@
           "name": "株式会社総合車両製作所",
           "hq": "神奈川県横浜市金沢区大川3-1",
           "url": "https://www.j-trec.co.jp/",
-          "description": "鉄道車両の製造",
+          "description": "鉄道車両の製造（オールステンレス車両ブランド「sustina（サスティナ）」等）",
           "founded": "2011年11月9日（東急の子会社「新東急車輛」として設立。2012年4月にJR東日本へ株式譲渡・現商号に変更）",
           "capital": "31億円",
           "employees": "1,448名（2025年4月1日現在）",
@@ -499,7 +499,7 @@
           "name": "日本ホテル株式会社",
           "hq": "東京都豊島区西池袋1-6-1",
           "url": "https://www.nihonhotel.com/",
-          "description": "ホテルメトロポリタン等のホテル運営",
+          "description": "「東京ステーションホテル」「ホテルメトロポリタン」「JR東日本ホテルメッツ」等のホテル運営",
           "founded": "1981年11月",
           "capital": "5億円",
           "employees": null,
@@ -730,16 +730,6 @@
           "founded": "2018年2月20日",
           "capital": "4億9,500万円",
           "employees": "14名",
-          "abbreviation": null
-        },
-        {
-          "name": "JR東日本豊里創生株式会社",
-          "hq": "東京都港区高輪2-21-1 THE LINKPILLAR1 NORTH 6F TAKANAWA GATEWAY Link Scholars' Hub (LiSH) Studio1",
-          "url": "https://j-toyosato.co.jp/",
-          "description": "農業法人等への出資、経営支援・コンサルティング業（米づくりの課題解決を目指す）",
-          "founded": "2026年4月28日",
-          "capital": "4億円",
-          "employees": null,
           "abbreviation": null
         },
         {
