@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JR東日本グループ会社ガイド</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>JR東日本グループ会社ガイド</h1>
+    <p class="app-header__subtitle">グループ会社（約70社）を検索・閲覧できます</p>
+  </header>
+
+  <main class="container">
+    <section class="controls" aria-label="検索・絞り込み">
+      <div class="control-row">
+        <label class="search-box">
+          <span class="visually-hidden">キーワード検索</span>
+          <input type="search" id="search-input" placeholder="会社名・事業内容・所在地で検索" autocomplete="off">
+        </label>
+        <label class="pref-select">
+          <span class="visually-hidden">都道府県で絞り込み</span>
+          <select id="pref-select">
+            <option value="">すべての都道府県</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="segment-filters" id="segment-filters" role="group" aria-label="セグメントで絞り込み">
+        <!-- セグメントボタンはJSで生成 -->
+      </div>
+    </section>
+
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+
+    <section class="card-grid" id="card-grid" aria-label="会社一覧">
+      <!-- カードはJSで生成 -->
+    </section>
+
+    <p class="empty-state" id="empty-state" hidden>該当する会社が見つかりませんでした。</p>
+  </main>
+
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button type="button" class="modal-close" id="modal-close" aria-label="閉じる">&times;</button>
+      <span class="modal-segment" id="modal-segment"></span>
+      <h2 id="modal-title"></h2>
+      <p class="modal-hq" id="modal-hq"></p>
+      <p class="modal-description" id="modal-description"></p>
+      <a class="modal-link" id="modal-link" target="_blank" rel="noopener noreferrer">公式サイトを開く</a>
+    </div>
+  </div>
+
+  <footer class="app-footer" id="app-footer">
+    <!-- meta情報はJSで生成 -->
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

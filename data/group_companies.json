@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "JR東日本グループ会社ガイド",
+    "source": "JR東日本公式サイト「グループ会社一覧」(https://www.jreast.co.jp/company/about/group/) を基に作成",
+    "note": "本データは各社の公式サイト・公開情報のみを基にしており、出向・転籍の実績等の社内情報は含みません。",
+    "last_checked": "2026-09-25"
+  },
+  "segments": [
+    {
+      "id": "transport",
+      "name": "運輸",
+      "description": "安全・安定輸送と品質の高いサービスを支える、鉄道運行・保守・関連サービスを担う会社群",
+      "companies": [
+        {"name": "ジェイアールバス関東株式会社", "hq": "東京都墨田区江東橋2-19-7", "url": "https://www.jrbuskanto.co.jp/", "description": "関東エリアの高速バス・路線バス事業"},
+        {"name": "ジェイアールバス東北株式会社", "hq": "仙台市青葉区五橋1-1-1", "url": "https://www.jrbustohoku.co.jp/", "description": "東北エリアの高速バス・路線バス事業"},
+        {"name": "東京モノレール株式会社", "hq": "東京都港区浜松町2-4-1", "url": "https://www.tokyo-monorail.co.jp/", "description": "東京モノレール羽田空港線の運営"},
+        {"name": "株式会社JR東日本びゅうツーリズム&セールス", "hq": "東京都墨田区錦糸3-2-1", "url": "https://www.jre-vts.com/", "description": "旅行企画・販売（びゅう商品等）"},
+        {"name": "JR東日本レンタリース株式会社", "hq": "東京都千代田区神田練塀町85", "url": "https://www.jrerl.co.jp/", "description": "レンタカー・リース事業"},
+        {"name": "株式会社JR東日本ネットステーション", "hq": "東京都渋谷区千駄ヶ谷5-33-8", "url": "https://www.jrnets.com/", "description": "駅レンタサイクル等のネットワーク型サービス"},
+        {"name": "株式会社JR東日本テクノハートTESSEI", "hq": "東京都中央区八重洲1-5-15", "url": "http://www.tessei.co.jp/", "description": "新幹線車両の清掃・整備サービス"},
+        {"name": "株式会社JR東日本運輸サービス", "hq": "東京都中央区日本橋室町4-3-16", "url": "https://www.jets.jregroup.ne.jp/", "description": "駅係員・車内サービス等の受託運営"},
+        {"name": "株式会社JR東日本環境アクセス", "hq": "東京都台東区東上野3-4-12", "url": "https://www.jea.co.jp/", "description": "駅・車両の清掃、環境衛生サービス"},
+        {"name": "株式会社JR東日本ステーションサービス", "hq": "東京都渋谷区千駄ヶ谷5-23-13", "url": "https://www.je-ss.co.jp/", "description": "駅業務受託・案内サービス"},
+        {"name": "JR高崎鉄道サービス株式会社", "hq": "群馬県高崎市下和田町5-3-21", "url": "http://www.tts.jregroup.ne.jp/", "description": "高崎エリアの駅業務・車両整備等の受託"},
+        {"name": "JR水戸鉄道サービス株式会社", "hq": "茨城県水戸市南町1-3-35", "url": "http://www.mito-ts.co.jp/", "description": "水戸エリアの駅業務・鉄道関連サービス"},
+        {"name": "JR千葉鉄道サービス株式会社", "hq": "千葉県千葉市中央区弁天1-5-1", "url": "https://www.jrcts.jregroup.ne.jp/", "description": "千葉エリアの駅業務・鉄道関連サービス"},
+        {"name": "株式会社JR東日本テクノサービス", "hq": "宮城県仙台市青葉区一番町2-2-13", "url": "http://www.jrtechno.co.jp/", "description": "仙台エリアの車両・設備メンテナンス"},
+        {"name": "JR盛岡鉄道サービス株式会社", "hq": "岩手県盛岡市盛岡駅前通1-41", "url": "http://www.ejam.jregroup.ne.jp/", "description": "盛岡エリアの駅業務・鉄道関連サービス"},
+        {"name": "JR秋田鉄道サービス株式会社", "hq": "秋田県秋田市東通仲町12-17", "url": null, "description": "秋田エリアの駅業務・鉄道関連サービス"},
+        {"name": "JR新潟鉄道サービス株式会社", "hq": "新潟県新潟市中央区鐙西2-17-19", "url": "https://www.nts.jregroup.ne.jp/", "description": "新潟エリアの駅業務・鉄道関連サービス"},
+        {"name": "JR長野鉄道サービス株式会社", "hq": "長野県長野市中御所2-4-3", "url": "https://www.nrs.jregroup.ne.jp/", "description": "長野エリアの駅業務・鉄道関連サービス"},
+        {"name": "JR東日本リネン株式会社", "hq": "東京都豊島区東池袋3-1-1", "url": "http://www.jrel.co.jp/", "description": "車内・ホテル向けリネンサプライ事業"},
+        {"name": "株式会社JR東日本サービスクリエーション", "hq": "東京都千代田区神田富山町10-2", "url": "https://www.jresc.co.jp/", "description": "コールセンター・お客さま対応サービス"},
+        {"name": "株式会社JR東日本建築設計", "hq": "東京都渋谷区代々木2-1-5", "url": "https://www.jred.co.jp/", "description": "駅・関連施設の建築設計"},
+        {"name": "JR東日本ビルテック株式会社", "hq": "東京都渋谷区代々木2-2-2", "url": "https://www.jrefm.co.jp/", "description": "建物設備の維持管理・ファシリティマネジメント"},
+        {"name": "ユニオン建設株式会社", "hq": "東京都目黒区中目黒2-10-1", "url": "https://www.union-k.co.jp/", "description": "建築工事・土木工事"},
+        {"name": "株式会社日本線路技術", "hq": "東京都足立区千住旭町42-3", "url": "https://www.kk-nsg.co.jp/", "description": "軌道関連の測量・調査・技術サービス"},
+        {"name": "株式会社総合車両製作所", "hq": "神奈川県横浜市金沢区大川3-1", "url": "https://www.j-trec.co.jp/", "description": "鉄道車両の製造（通称J-TREC）"},
+        {"name": "JR東日本テクノロジー株式会社", "hq": "東京都新宿区大久保3-8-2", "url": "https://www.ttech.co.jp/", "description": "鉄道関連設備・システムの技術サービス"}
+      ]
+    },
+    {
+      "id": "retail_service",
+      "name": "流通・サービス",
+      "description": "駅ナカ店舗、飲食、広告、物流など生活・地域に関わる多様なサービスを展開する会社群",
+      "companies": [
+        {"name": "株式会社JR東日本クロスステーション", "hq": "東京都渋谷区千駄ヶ谷5-33-8", "url": "https://www.jr-cross.co.jp/", "description": "NewDays等の駅ナカ小売、飲食、水事業を統括する事業会社"},
+        {"name": "株式会社紀ノ國屋", "hq": "東京都新宿区市谷砂土原町3-5", "url": "https://www.e-kinokuniya.com/", "description": "高級スーパーマーケット「紀ノ國屋」の運営"},
+        {"name": "JR東日本東北総合サービス株式会社", "hq": "宮城県仙台市青葉区中央4-10-3", "url": "https://www.livit.jregroup.ne.jp/", "description": "東北エリアの店舗・サービス運営"},
+        {"name": "株式会社JR東日本商事", "hq": "東京都渋谷区代々木2-2-2", "url": "https://www.ejrt.co.jp/index.html", "description": "商社機能（資材調達・販売等）"},
+        {"name": "株式会社ジェイアール東日本物流", "hq": "東京都墨田区錦糸3-2-1", "url": "https://www.jrbutsuryu.jregroup.ne.jp/", "description": "物流・運送事業"},
+        {"name": "株式会社JR東日本スマートロジスティクス", "hq": "東京都墨田区江東橋3-13-1", "url": "https://www.jre-sl.co.jp/", "description": "鉄道を活用した新しい物流サービス"},
+        {"name": "株式会社ジェイアール東日本企画", "hq": "東京都渋谷区恵比寿南1-5-5", "url": "https://www.jeki.co.jp/", "description": "広告代理店事業（通称JEKI）"},
+        {"name": "JR東日本メディア株式会社", "hq": "東京都豊島区南大塚3-46-3", "url": "https://www.jrmedia.co.jp/", "description": "駅構内広告媒体の企画・運営"},
+        {"name": "株式会社オレンジページ", "hq": "東京都港区三田1-4-28", "url": "https://www.orangepage.net/", "description": "料理雑誌『オレンジページ』等の出版事業"},
+        {"name": "JRE Ventures Pte. Ltd.", "hq": "シンガポール", "url": null, "description": "海外投資・事業開発拠点"}
+      ]
+    },
+    {
+      "id": "realestate_hotel",
+      "name": "不動産・ホテル",
+      "description": "駅ビル・商業施設運営やホテル事業など、まちづくり・くらしづくりを担う会社群",
+      "companies": [
+        {"name": "株式会社アトレ", "hq": "東京都渋谷区恵比寿4-1-18", "url": "https://www.atre.co.jp/", "description": "駅ビル商業施設「アトレ」の運営"},
+        {"name": "株式会社ルミネ", "hq": "東京都渋谷区代々木2-2-2", "url": "https://www.lumine.ne.jp/", "description": "駅ビル商業施設「ルミネ」「ニュウマン」の運営"},
+        {"name": "株式会社JR横浜湘南シティクリエイト", "hq": "神奈川県平塚市代官町1-1", "url": "https://www.jryscc.co.jp/", "description": "横浜・湘南エリアの駅ビル運営"},
+        {"name": "株式会社JR中央線コミュニティデザイン", "hq": "東京都八王子市旭町1-1", "url": "https://www.jrccd.co.jp/company/", "description": "中央線エリアの駅ビル「セレオ」等の運営"},
+        {"name": "ジェイアール東日本商業開発株式会社", "hq": "東京都立川市柴崎町3-2-1", "url": "https://www.granduo.jp/", "description": "「グランデュオ」等の商業施設運営"},
+        {"name": "株式会社錦糸町ステーションビル", "hq": "東京都墨田区江東橋3-14-5", "url": "https://www.termina.info/", "description": "錦糸町駅ビル「テルミナ」の運営"},
+        {"name": "株式会社千葉ステーションビル", "hq": "千葉県千葉市中央区新千葉1-7-2", "url": "https://www.perie.co.jp/", "description": "千葉駅ビル「ペリエ」の運営"},
+        {"name": "株式会社JR東日本青森商業開発", "hq": "青森県青森市柳川1-2-3", "url": "https://jre-abc.com/", "description": "青森エリアの商業施設運営"},
+        {"name": "JR東日本新潟シティクリエイト株式会社", "hq": "新潟県新潟市中央区笹口1-9-1", "url": "https://jenic.jp/company/", "description": "新潟エリアの駅ビル運営"},
+        {"name": "株式会社ステーションビルMIDORI", "hq": "長野県長野市南千歳1-22-6", "url": "https://www.eki-midori.com/", "description": "長野駅ビル「MIDORI」の運営"},
+        {"name": "株式会社JR東日本ビルディング", "hq": "東京都渋谷区千駄ヶ谷5-33-8", "url": "https://www.jebl.co.jp/", "description": "ビル賃貸・不動産管理事業"},
+        {"name": "日本ホテル株式会社", "hq": "東京都豊島区西池袋1-6-1", "url": "https://www.nihonhotel.com/", "description": "ホテルメトロポリタン等のホテル運営"},
+        {"name": "仙台ターミナルビル株式会社", "hq": "宮城県仙台市青葉区中央1-1-1", "url": null, "description": "仙台駅ビル・ホテル運営"},
+        {"name": "盛岡ターミナルビル株式会社", "hq": "岩手県盛岡市盛岡駅前通1-44", "url": "https://fesan-jp.com/mtb/", "description": "盛岡駅ビル運営"},
+        {"name": "秋田ステーションビル株式会社", "hq": "秋田県秋田市中通7-2-1", "url": null, "description": "秋田駅ビル運営"},
+        {"name": "JR東日本スポーツ株式会社", "hq": "東京都豊島区南大塚3-33-1", "url": "https://www.jresports.co.jp/", "description": "フィットネスクラブ等のスポーツ施設運営"},
+        {"name": "株式会社ガーラ湯沢", "hq": "新潟県南魚沼郡湯沢町大字湯沢字茅平1039-2", "url": "https://gala.co.jp/winter/", "description": "スキー場「GALA湯沢」の運営"},
+        {"name": "株式会社ジェイアール東日本都市開発", "hq": "東京都渋谷区代々木2-2-2", "url": "https://www.jrtk.jp/", "description": "都市開発・不動産事業"},
+        {"name": "JR東日本不動産投資顧問株式会社", "hq": "東京都千代田区丸の内1-7-12", "url": "https://www.jre-am.co.jp/", "description": "不動産投資顧問業（REIT運用等）"},
+        {"name": "JR東日本不動産株式会社", "hq": "東京都新宿区新宿四丁目1-6", "url": "https://www.jre-re.co.jp/", "description": "不動産開発・賃貸事業"}
+      ]
+    },
+    {
+      "id": "other",
+      "name": "その他",
+      "description": "IT、人事・人材、金融、コンサルティング、エネルギー等、グループの経営基盤を支える会社群",
+      "companies": [
+        {"name": "株式会社JR東日本情報システム", "hq": "東京都新宿区大久保3-8-2", "url": "https://www.jeis.co.jp/", "description": "グループのITシステム開発・運用（通称JEIS）"},
+        {"name": "株式会社JR東日本マネジメントサービス", "hq": "東京都渋谷区代々木2-2-2", "url": "https://www.jre-jems.co.jp/", "description": "総務・経理等の間接業務受託"},
+        {"name": "株式会社JR東日本パーソネルサービス", "hq": "東京都新宿区西新宿1-23-7", "url": "https://www.jeps.ne.jp/", "description": "人材派遣・人事関連サービス"},
+        {"name": "株式会社JR東日本グリーンパートナーズ", "hq": "埼玉県戸田市新曽847-5", "url": "https://www.gp.jregroup.ne.jp/", "description": "障害者雇用促進を担う特例子会社"},
+        {"name": "株式会社ビューカード", "hq": "東京都品川区大崎1-5-1", "url": "https://www.viewcard.co.jp/", "description": "「ビューカード」の発行・Suica連携クレジットカード事業"},
+        {"name": "JR東日本コンサルタンツ株式会社", "hq": "東京都品川区西品川1-1-1", "url": "https://www.jrc.jregroup.ne.jp/", "description": "鉄道土木・建築コンサルティング"},
+        {"name": "JR東日本メカトロニクス株式会社", "hq": "東京都渋谷区代々木2-1-1", "url": "https://www.jrem.co.jp/", "description": "自動改札機・券売機等の保守・製造"},
+        {"name": "日本コンサルタンツ株式会社", "hq": "東京都千代田区丸の内3-4-1", "url": "https://www.jictransport.co.jp/", "description": "鉄道分野の海外コンサルティング事業"},
+        {"name": "GATES PCM CONSTRUCTION LTD.", "hq": "シンガポール", "url": "https://gatespcm.sg/", "description": "海外建設事業"},
+        {"name": "JR東日本エネルギー開発株式会社", "hq": "東京都千代田区神田須田町1-25", "url": "https://www.jr-energy.jregroup.ne.jp/", "description": "再生可能エネルギー等の開発事業"},
+        {"name": "新宿南エネルギーサービス株式会社", "hq": "東京都渋谷区代々木2-1-1", "url": "https://www.sesdhc.co.jp/", "description": "地域冷暖房等のエネルギーサービス"},
+        {"name": "株式会社えきまちエナジークリエイト", "hq": "東京都港区高輪2-21-42", "url": "https://www.machiene.co.jp/", "description": "駅・まちのエネルギーマネジメント事業"},
+        {"name": "JR東日本スタートアップ株式会社", "hq": "東京都港区高輪2-21-42", "url": "https://jrestartup.co.jp/", "description": "スタートアップとのオープンイノベーション推進"}
+      ]
+    }
+  ]
+}
