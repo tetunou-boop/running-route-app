@@ -52,6 +52,7 @@
     modalTitle: document.getElementById("modal-title"),
     modalSegment: document.getElementById("modal-segment"),
     modalHq: document.getElementById("modal-hq"),
+    modalFacts: document.getElementById("modal-facts"),
     modalDescription: document.getElementById("modal-description"),
     modalLink: document.getElementById("modal-link")
   };
@@ -214,6 +215,24 @@
     els.modalSegment.textContent = company.segmentName;
     els.modalTitle.textContent = company.name;
     els.modalHq.textContent = company.hq;
+
+    const facts = [
+      ["設立", company.founded],
+      ["資本金", company.capital],
+      ["社員数", company.employees]
+    ].filter(([, value]) => Boolean(value));
+
+    els.modalFacts.innerHTML = "";
+    facts.forEach(([label, value]) => {
+      const dt = document.createElement("dt");
+      dt.textContent = label;
+      const dd = document.createElement("dd");
+      dd.textContent = value;
+      els.modalFacts.appendChild(dt);
+      els.modalFacts.appendChild(dd);
+    });
+    els.modalFacts.hidden = facts.length === 0;
+
     els.modalDescription.textContent = company.description;
     if (company.url) {
       els.modalLink.href = company.url;
