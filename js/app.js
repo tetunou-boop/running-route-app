@@ -83,6 +83,14 @@
 
   function renderSegmentFilters() {
     els.segmentFilters.innerHTML = "";
+    const buttons = [];
+
+    const syncButtons = () => {
+      buttons.forEach((btn) => {
+        btn.setAttribute("aria-pressed", state.selectedSegments.has(btn.dataset.segmentId) ? "true" : "false");
+      });
+    };
+
     state.segments.forEach((segment) => {
       const btn = document.createElement("button");
       btn.type = "button";
@@ -91,14 +99,19 @@
       btn.dataset.segmentId = segment.id;
       btn.setAttribute("aria-pressed", state.selectedSegments.has(segment.id) ? "true" : "false");
       btn.addEventListener("click", () => {
-        if (state.selectedSegments.has(segment.id)) {
-          state.selectedSegments.delete(segment.id);
+        const isOnlySelected =
+          state.selectedSegments.size === 1 && state.selectedSegments.has(segment.id);
+        if (isOnlySelected) {
+          // 既にこのセグメントだけに絞り込まれている場合はすべて表示に戻す
+          state.selectedSegments = new Set(state.segments.map((s) => s.id));
         } else {
-          state.selectedSegments.add(segment.id);
+          // このセグメントだけに絞り込む
+          state.selectedSegments = new Set([segment.id]);
         }
-        btn.setAttribute("aria-pressed", state.selectedSegments.has(segment.id) ? "true" : "false");
+        syncButtons();
         render();
       });
+      buttons.push(btn);
       els.segmentFilters.appendChild(btn);
     });
   }
