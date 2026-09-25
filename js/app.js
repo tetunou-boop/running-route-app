@@ -31,6 +31,19 @@
     return OVERSEAS_LABEL;
   }
 
+  // 英語表記の社名（"JRE Ventures Pte. Ltd." 等）から頭字語を生成する。
+  // 全て大文字の単語（JRE, GATES等）はそのまま残し、それ以外の単語は先頭1文字だけ取る。
+  // 例: "JRE Ventures Pte. Ltd." → "JREVPL"（"JREV"で部分一致検索できる）
+  function buildAcronym(name) {
+    const tokens = name.split(/\s+/).map((t) => t.replace(/[.,]/g, ""));
+    let acronym = "";
+    for (const token of tokens) {
+      if (!/^[A-Za-z]+$/.test(token)) continue;
+      acronym += token === token.toUpperCase() && token.length > 1 ? token : token[0].toUpperCase();
+    }
+    return acronym;
+  }
+
   const state = {
     companies: [],
     segments: [],
@@ -76,7 +89,8 @@
             ...company,
             segmentId: segment.id,
             segmentName: segment.name,
-            prefecture: extractPrefecture(company.hq)
+            prefecture: extractPrefecture(company.hq),
+            acronym: buildAcronym(company.name)
           }))
         );
         state.selectedSegments = new Set(data.segments.map((s) => s.id));
@@ -198,7 +212,7 @@
 
   function matchesQuery(company, query) {
     if (!query) return true;
-    const target = `${company.name} ${company.abbreviation || ""} ${company.description} ${company.hq}`.toLowerCase();
+    const target = `${company.name} ${company.abbreviation || ""} ${company.acronym || ""} ${company.description} ${company.hq}`.toLowerCase();
     return target.includes(query.toLowerCase());
   }
 

@@ -4,6 +4,9 @@
 data/group_companies.json を更新した後は、このスクリプトを再実行して
 dist/index.html（Netlify等への配布用ファイル）を最新化すること。
 
+js/app.js のロジック（データの整形・マッピング部分）を変更しても、
+fetch() の呼び出し部分さえ変わらなければこのスクリプトの修正は不要。
+
 Usage:
     python3 scripts/build_dist.py
 """
@@ -12,26 +15,11 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
-FETCH_BLOCK = '''  function loadData() {
-    return fetch("data/group_companies.json")
+FETCH_CALL = '''fetch("data/group_companies.json")
       .then((res) => {
         if (!res.ok) throw new Error("データの読み込みに失敗しました");
         return res.json();
-      })
-      .then((data) => {
-        state.segments = data.segments;
-        state.meta = data.meta;
-        state.companies = data.segments.flatMap((segment) =>
-          segment.companies.map((company) => ({
-            ...company,
-            segmentId: segment.id,
-            segmentName: segment.name,
-            prefecture: extractPrefecture(company.hq)
-          }))
-        );
-        state.selectedSegments = new Set(data.segments.map((s) => s.id));
-      });
-  }'''
+      })'''
 
 
 def build():
@@ -41,27 +29,14 @@ def build():
     css = (ROOT / "css" / "styles.css").read_text(encoding="utf-8")
     js = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
 
-    embedded_block = f'''  const EMBEDDED_DATA = {data_literal};
-
-  function loadData() {{
-    return Promise.resolve(EMBEDDED_DATA).then((data) => {{
-      state.segments = data.segments;
-      state.meta = data.meta;
-      state.companies = data.segments.flatMap((segment) =>
-        segment.companies.map((company) => ({{
-          ...company,
-          segmentId: segment.id,
-          segmentName: segment.name,
-          prefecture: extractPrefecture(company.hq)
-        }}))
-      );
-      state.selectedSegments = new Set(data.segments.map((s) => s.id));
-    }});
-  }}'''
-
-    if FETCH_BLOCK not in js:
-        raise SystemExit("js/app.js の loadData() の形が変わっています。FETCH_BLOCK を更新してください。")
-    js = js.replace(FETCH_BLOCK, embedded_block)
+    if FETCH_CALL not in js:
+        raise SystemExit("js/app.js の fetch() 呼び出しの形が変わっています。FETCH_CALL を更新してください。")
+    js = js.replace(FETCH_CALL, "Promise.resolve(EMBEDDED_DATA)")
+    js = js.replace(
+        "(function () {\n  \"use strict\";",
+        f'(function () {{\n  "use strict";\n\n  const EMBEDDED_DATA = {data_literal};',
+        1,
+    )
 
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     html = html.replace(
