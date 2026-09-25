@@ -165,12 +165,17 @@
     pref.className = "company-card__pref";
     pref.textContent = company.prefecture;
 
+    const address = document.createElement("p");
+    address.className = "company-card__address";
+    address.textContent = company.hq;
+
     const desc = document.createElement("p");
     desc.className = "company-card__desc";
     desc.textContent = company.description;
 
     card.appendChild(top);
     card.appendChild(pref);
+    card.appendChild(address);
     card.appendChild(desc);
 
     if (company.url) {

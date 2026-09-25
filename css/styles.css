@@ -170,6 +170,14 @@ body {
 .company-card__pref {
   font-size: 0.8rem;
   color: var(--text-muted);
+  margin: 0;
+  font-weight: 600;
+}
+
+.company-card__address {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0;
 }
 
 .company-card__desc {
