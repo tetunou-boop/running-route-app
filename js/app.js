@@ -143,9 +143,6 @@
         state.query = company.abbreviation;
         els.searchInput.value = company.abbreviation;
         render();
-        els.abbrPanel.hidden = true;
-        els.abbrToggle.setAttribute("aria-expanded", "false");
-        window.scrollTo({ top: 0, behavior: "smooth" });
       });
       els.abbrPanel.appendChild(chip);
     });
