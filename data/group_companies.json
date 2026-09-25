@@ -2,7 +2,7 @@
   "meta": {
     "title": "JR東日本グループ会社ガイド",
     "source": "JR東日本公式サイト「グループ会社一覧」(https://www.jreast.co.jp/company/about/group/) を基に作成",
-    "note": "本データは各社の公式サイト・公開情報のみを基にしており、出向・転籍の実績等の社内情報は含みません。設立年・資本金・社員数はWeb検索経由で収集した二次情報を含み、情報源間で数値が食い違う項目は null としています。正確な最新情報は各社公式サイトでご確認ください。",
+    "note": "本データは各社の公式サイト・公開情報のみを基にしており、出向・転籍の実績等の社内情報は含みません。設立年・資本金・社員数はWeb検索経由で収集した二次情報を含み、情報源間で数値が食い違う項目は null としています。新設・統合等でグループ会社一覧は随時更新されるため、本データが最新の公式一覧と差異がある場合があります。正確な最新情報は各社公式サイトでご確認ください。",
     "last_checked": "2026-09-25"
   },
   "segments": [
@@ -584,6 +584,16 @@
           "capital": "10億円",
           "employees": null,
           "abbreviation": null
+        },
+        {
+          "name": "TAKANAWA GATEWAY 地球益投資事業有限責任組合",
+          "hq": null,
+          "url": null,
+          "description": "TAKANAWA GATEWAY関連プロジェクトのための投資事業有限責任組合（LPS）",
+          "founded": null,
+          "capital": null,
+          "employees": null,
+          "abbreviation": null
         }
       ]
     },
@@ -720,6 +730,76 @@
           "founded": "2018年2月20日",
           "capital": "4億9,500万円",
           "employees": "14名",
+          "abbreviation": null
+        },
+        {
+          "name": "JR東日本豊里創生株式会社",
+          "hq": "東京都港区高輪2-21-1 THE LINKPILLAR1 NORTH 6F TAKANAWA GATEWAY Link Scholars' Hub (LiSH) Studio1",
+          "url": "https://j-toyosato.co.jp/",
+          "description": "農業法人等への出資、経営支援・コンサルティング業（米づくりの課題解決を目指す）",
+          "founded": "2026年4月28日",
+          "capital": "4億円",
+          "employees": null,
+          "abbreviation": null
+        },
+        {
+          "name": "台灣捷爾東事業開發股份有限公司",
+          "hq": "台湾",
+          "url": null,
+          "description": "台湾における事業開発",
+          "founded": null,
+          "capital": null,
+          "employees": null,
+          "abbreviation": null
+        },
+        {
+          "name": "台灣捷爾東旅館管理顧問股份有限公司",
+          "hq": "台湾",
+          "url": null,
+          "description": "台湾におけるホテル運営・管理コンサルティング",
+          "founded": null,
+          "capital": null,
+          "employees": null,
+          "abbreviation": null
+        },
+        {
+          "name": "台灣捷爾東健身事業股份有限公司",
+          "hq": "台湾",
+          "url": null,
+          "description": "台湾におけるフィットネス事業",
+          "founded": null,
+          "capital": null,
+          "employees": null,
+          "abbreviation": null
+        },
+        {
+          "name": "JR East Business Development SEA Pte. Ltd.",
+          "hq": "シンガポール",
+          "url": "https://jre-sea.sg/",
+          "description": "東南アジア（SEA）における事業開発拠点",
+          "founded": null,
+          "capital": null,
+          "employees": null,
+          "abbreviation": "SEABD"
+        },
+        {
+          "name": "JRE Business Development UK Ltd.",
+          "hq": "イギリス",
+          "url": null,
+          "description": "英国における事業開発拠点",
+          "founded": null,
+          "capital": null,
+          "employees": null,
+          "abbreviation": null
+        },
+        {
+          "name": "Decorum Vending Ltd.",
+          "hq": "イギリス",
+          "url": null,
+          "description": "英国における自動販売機事業",
+          "founded": null,
+          "capital": null,
+          "employees": null,
           "abbreviation": null
         }
       ]
