@@ -30,6 +30,13 @@
       <div class="segment-filters" id="segment-filters" role="group" aria-label="セグメントで絞り込み">
         <!-- セグメントボタンはJSで生成 -->
       </div>
+
+      <button type="button" class="abbr-toggle" id="abbr-toggle" aria-expanded="false" aria-controls="abbr-panel">
+        略称から探す <span class="abbr-toggle__count" id="abbr-toggle-count"></span> <span class="abbr-toggle__caret">▾</span>
+      </button>
+      <div class="abbr-panel" id="abbr-panel" role="group" aria-label="略称から探す" hidden>
+        <!-- 略称チップはJSで生成 -->
+      </div>
     </section>
 
     <p class="result-count" id="result-count" aria-live="polite"></p>

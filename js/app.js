@@ -54,7 +54,10 @@
     modalHq: document.getElementById("modal-hq"),
     modalFacts: document.getElementById("modal-facts"),
     modalDescription: document.getElementById("modal-description"),
-    modalLink: document.getElementById("modal-link")
+    modalLink: document.getElementById("modal-link"),
+    abbrToggle: document.getElementById("abbr-toggle"),
+    abbrToggleCount: document.getElementById("abbr-toggle-count"),
+    abbrPanel: document.getElementById("abbr-panel")
   };
 
   function loadData() {
@@ -115,6 +118,42 @@
     els.prefSelect.addEventListener("change", () => {
       state.selectedPref = els.prefSelect.value;
       render();
+    });
+  }
+
+  function renderAbbrPanel() {
+    const withAbbr = state.companies
+      .filter((c) => c.abbreviation)
+      .sort((a, b) => a.abbreviation.localeCompare(b.abbreviation, "en", { sensitivity: "base" }));
+
+    if (withAbbr.length === 0) {
+      els.abbrToggle.hidden = true;
+      return;
+    }
+
+    els.abbrToggleCount.textContent = `(${withAbbr.length}社)`;
+    els.abbrPanel.innerHTML = "";
+    withAbbr.forEach((company) => {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "abbr-chip";
+      chip.textContent = company.abbreviation;
+      chip.title = company.name;
+      chip.addEventListener("click", () => {
+        state.query = company.abbreviation;
+        els.searchInput.value = company.abbreviation;
+        render();
+        els.abbrPanel.hidden = true;
+        els.abbrToggle.setAttribute("aria-expanded", "false");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      els.abbrPanel.appendChild(chip);
+    });
+
+    els.abbrToggle.addEventListener("click", () => {
+      const expanded = els.abbrToggle.getAttribute("aria-expanded") === "true";
+      els.abbrToggle.setAttribute("aria-expanded", expanded ? "false" : "true");
+      els.abbrPanel.hidden = expanded;
     });
   }
 
@@ -281,6 +320,7 @@
     .then(() => {
       renderSegmentFilters();
       renderPrefectureOptions();
+      renderAbbrPanel();
       renderFooter();
       bindGlobalEvents();
       render();
