@@ -157,6 +157,13 @@ body {
   margin: 0;
 }
 
+.company-card__abbr {
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: var(--jr-green-light);
+  white-space: nowrap;
+}
+
 .company-card__segment {
   flex-shrink: 0;
   font-size: 0.7rem;
@@ -253,6 +260,12 @@ body {
 .modal h2 {
   margin: 0 0 6px;
   font-size: 1.15rem;
+}
+
+.modal-abbr {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--jr-green-light);
 }
 
 .modal-hq {

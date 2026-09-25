@@ -18,7 +18,8 @@
           "description": "関東エリアの高速バス・路線バス事業",
           "founded": "1988年3月3日",
           "capital": "40億円",
-          "employees": "817名（2026年3月31日現在）"
+          "employees": "817名（2026年3月31日現在）",
+          "abbreviation": null
         },
         {
           "name": "ジェイアールバス東北株式会社",
@@ -27,7 +28,8 @@
           "description": "東北エリアの高速バス・路線バス事業",
           "founded": "1988年3月5日",
           "capital": "23億5,000万円",
-          "employees": "385名（2025年4月1日現在）"
+          "employees": "385名（2025年4月1日現在）",
+          "abbreviation": null
         },
         {
           "name": "東京モノレール株式会社",
@@ -36,7 +38,8 @@
           "description": "東京モノレール羽田空港線の運営",
           "founded": "1959年8月7日",
           "capital": "1億円",
-          "employees": "318名"
+          "employees": "318名",
+          "abbreviation": null
         },
         {
           "name": "株式会社JR東日本びゅうツーリズム&セールス",
@@ -45,7 +48,8 @@
           "description": "旅行企画・販売（びゅう商品等）",
           "founded": "1992年9月1日",
           "capital": "1億円",
-          "employees": "754名（2025年10月1日時点）"
+          "employees": "754名（2025年10月1日時点）",
+          "abbreviation": null
         },
         {
           "name": "JR東日本レンタリース株式会社",
@@ -54,7 +58,8 @@
           "description": "レンタカー・リース事業",
           "founded": "1992年3月1日",
           "capital": "1億6,500万円",
-          "employees": "362名（2026年1月1日時点）"
+          "employees": "362名（2026年1月1日時点）",
+          "abbreviation": null
         },
         {
           "name": "株式会社JR東日本ネットステーション",
@@ -63,7 +68,8 @@
           "description": "駅レンタサイクル等のネットワーク型サービス",
           "founded": "2000年3月",
           "capital": "4億6,000万円",
-          "employees": "112名"
+          "employees": "112名",
+          "abbreviation": "JRNets"
         },
         {
           "name": "株式会社JR東日本テクノハートTESSEI",
@@ -72,7 +78,8 @@
           "description": "新幹線車両の清掃・整備サービス",
           "founded": "1952年10月20日",
           "capital": "3,800万円",
-          "employees": "790名（2025年4月1日現在）"
+          "employees": "790名（2025年4月1日現在）",
+          "abbreviation": "TESSEI"
         },
         {
           "name": "株式会社JR東日本運輸サービス",
@@ -81,7 +88,8 @@
           "description": "駅係員・車内サービス等の受託運営",
           "founded": "1955年7月19日",
           "capital": "3,800万円",
-          "employees": "2,028名"
+          "employees": "2,028名",
+          "abbreviation": "JETS"
         },
         {
           "name": "株式会社JR東日本環境アクセス",
@@ -90,7 +98,8 @@
           "description": "駅・車両の清掃、環境衛生サービス",
           "founded": "1963年3月",
           "capital": "1億2,000万円",
-          "employees": "3,334名（2025年4月現在）"
+          "employees": "3,334名（2025年4月現在）",
+          "abbreviation": "JEA"
         },
         {
           "name": "株式会社JR東日本ステーションサービス",
@@ -99,7 +108,8 @@
           "description": "駅業務受託・案内サービス",
           "founded": "2013年4月1日",
           "capital": "5,000万円",
-          "employees": "3,237名（2026年4月1日時点）"
+          "employees": "3,237名（2026年4月1日時点）",
+          "abbreviation": "JESS"
         },
         {
           "name": "JR高崎鉄道サービス株式会社",
@@ -108,7 +118,8 @@
           "description": "高崎エリアの駅業務・車両整備等の受託",
           "founded": "1972年",
           "capital": "1,000万円",
-          "employees": "388名（2026年4月1日現在）"
+          "employees": "388名（2026年4月1日現在）",
+          "abbreviation": "TTS"
         },
         {
           "name": "JR水戸鉄道サービス株式会社",
@@ -117,7 +128,8 @@
           "description": "水戸エリアの駅業務・鉄道関連サービス",
           "founded": "1976年2月28日",
           "capital": "1,000万円",
-          "employees": "490名（2026年4月1日現在）"
+          "employees": "490名（2026年4月1日現在）",
+          "abbreviation": null
         },
         {
           "name": "JR千葉鉄道サービス株式会社",
@@ -126,7 +138,8 @@
           "description": "千葉エリアの駅業務・鉄道関連サービス",
           "founded": "2009年4月1日",
           "capital": "1,200万円",
-          "employees": "720名（2025年10月1日現在）"
+          "employees": "720名（2025年10月1日現在）",
+          "abbreviation": "CTS"
         },
         {
           "name": "株式会社JR東日本テクノサービス",
@@ -135,7 +148,8 @@
           "description": "仙台エリアの車両・設備メンテナンス",
           "founded": "1966年4月",
           "capital": "2,500万円",
-          "employees": "1,284名（2026年4月1日現在）"
+          "employees": "1,284名（2026年4月1日現在）",
+          "abbreviation": null
         },
         {
           "name": "JR盛岡鉄道サービス株式会社",
@@ -144,7 +158,8 @@
           "description": "盛岡エリアの駅業務・鉄道関連サービス",
           "founded": "1960年9月",
           "capital": "1,300万円",
-          "employees": "616名（2025年12月1日現在）"
+          "employees": "616名（2025年12月1日現在）",
+          "abbreviation": "MRS"
         },
         {
           "name": "JR秋田鉄道サービス株式会社",
@@ -153,7 +168,8 @@
           "description": "秋田エリアの駅業務・鉄道関連サービス",
           "founded": "1975年4月1日",
           "capital": "1,000万円",
-          "employees": null
+          "employees": null,
+          "abbreviation": "JARS"
         },
         {
           "name": "JR新潟鉄道サービス株式会社",
@@ -162,7 +178,8 @@
           "description": "新潟エリアの駅業務・鉄道関連サービス",
           "founded": "1954年4月1日",
           "capital": "1,700万円",
-          "employees": "672名（2026年4月1日現在）"
+          "employees": "672名（2026年4月1日現在）",
+          "abbreviation": "NTS"
         },
         {
           "name": "JR長野鉄道サービス株式会社",
@@ -171,7 +188,8 @@
           "description": "長野エリアの駅業務・鉄道関連サービス",
           "founded": "1967年3月29日",
           "capital": "1,000万円",
-          "employees": null
+          "employees": null,
+          "abbreviation": "NRS"
         },
         {
           "name": "JR東日本リネン株式会社",
@@ -180,7 +198,8 @@
           "description": "車内・ホテル向けリネンサプライ事業",
           "founded": "1964年3月",
           "capital": "1億円",
-          "employees": "312名"
+          "employees": "312名",
+          "abbreviation": "JREL"
         },
         {
           "name": "株式会社JR東日本サービスクリエーション",
@@ -189,7 +208,8 @@
           "description": "コールセンター・お客さま対応サービス",
           "founded": "2019年4月1日",
           "capital": "5,000万円",
-          "employees": "1,851名（2026年4月時点）"
+          "employees": "1,851名（2026年4月時点）",
+          "abbreviation": "J-Creation"
         },
         {
           "name": "株式会社JR東日本建築設計",
@@ -198,7 +218,8 @@
           "description": "駅・関連施設の建築設計",
           "founded": "1989年4月",
           "capital": "5,000万円",
-          "employees": "562名（2025年4月1日現在）"
+          "employees": "562名（2025年4月1日現在）",
+          "abbreviation": "JRED"
         },
         {
           "name": "JR東日本ビルテック株式会社",
@@ -207,7 +228,8 @@
           "description": "建物設備の維持管理・ファシリティマネジメント",
           "founded": "1990年8月1日",
           "capital": "5,000万円",
-          "employees": "1,573名（2025年4月時点）"
+          "employees": "1,573名（2025年4月時点）",
+          "abbreviation": null
         },
         {
           "name": "ユニオン建設株式会社",
@@ -216,7 +238,8 @@
           "description": "建築工事・土木工事",
           "founded": "1958年9月11日",
           "capital": "1億2,000万円",
-          "employees": "726名（2025年時点）"
+          "employees": "726名（2025年時点）",
+          "abbreviation": null
         },
         {
           "name": "株式会社日本線路技術",
@@ -225,7 +248,8 @@
           "description": "軌道関連の測量・調査・技術サービス",
           "founded": "1979年",
           "capital": "2,000万円",
-          "employees": "170名（2025年3月期）"
+          "employees": "170名（2025年3月期）",
+          "abbreviation": "NSG"
         },
         {
           "name": "株式会社総合車両製作所",
@@ -234,7 +258,8 @@
           "description": "鉄道車両の製造（通称J-TREC）",
           "founded": "2012年4月",
           "capital": "31億円",
-          "employees": "1,448名（2025年4月1日現在）"
+          "employees": "1,448名（2025年4月1日現在）",
+          "abbreviation": "J-TREC"
         },
         {
           "name": "JR東日本テクノロジー株式会社",
@@ -243,7 +268,8 @@
           "description": "鉄道関連設備・システムの技術サービス",
           "founded": "1968年4月1日",
           "capital": "2億円",
-          "employees": "1,742名（2025年4月現在）"
+          "employees": "1,742名（2025年4月現在）",
+          "abbreviation": "JRTM"
         }
       ]
     },
@@ -259,7 +285,8 @@
           "description": "NewDays等の駅ナカ小売、飲食、水事業を統括する事業会社",
           "founded": "2021年4月",
           "capital": "41億100万円",
-          "employees": "2,930名（契約社員等を除く）"
+          "employees": "2,930名（契約社員等を除く）",
+          "abbreviation": "JR-Cross"
         },
         {
           "name": "株式会社紀ノ國屋",
@@ -268,7 +295,8 @@
           "description": "高級スーパーマーケット「紀ノ國屋」の運営",
           "founded": null,
           "capital": "5,000万円",
-          "employees": "1,543名（2024年4月1日現在）"
+          "employees": "1,543名（2024年4月1日現在）",
+          "abbreviation": null
         },
         {
           "name": "JR東日本東北総合サービス株式会社",
@@ -277,7 +305,8 @@
           "description": "東北エリアの店舗・サービス運営",
           "founded": "1989年8月18日",
           "capital": "4億9,000万円",
-          "employees": "1,547名（2026年4月1日現在）"
+          "employees": "1,547名（2026年4月1日現在）",
+          "abbreviation": "Livit"
         },
         {
           "name": "株式会社JR東日本商事",
@@ -286,7 +315,8 @@
           "description": "商社機能（資材調達・販売等）",
           "founded": "1988年9月13日",
           "capital": "5億6,000万円",
-          "employees": "534名（2025年4月1日現在）"
+          "employees": "534名（2025年4月1日現在）",
+          "abbreviation": null
         },
         {
           "name": "株式会社ジェイアール東日本物流",
@@ -295,7 +325,8 @@
           "description": "物流・運送事業",
           "founded": "1988年10月1日",
           "capital": "1億円",
-          "employees": "1,133名（2026年3月31日現在）"
+          "employees": "1,133名（2026年3月31日現在）",
+          "abbreviation": null
         },
         {
           "name": "株式会社JR東日本スマートロジスティクス",
@@ -304,7 +335,8 @@
           "description": "鉄道を活用した新しい物流サービス",
           "founded": "2023年7月3日",
           "capital": "1億円",
-          "employees": "約110名"
+          "employees": "約110名",
+          "abbreviation": "JRE-SL"
         },
         {
           "name": "株式会社ジェイアール東日本企画",
@@ -313,7 +345,8 @@
           "description": "広告代理店事業（通称JEKI）",
           "founded": "1988年5月9日",
           "capital": "15億5,000万円",
-          "employees": "1,200名（2025年4月現在）"
+          "employees": "1,200名（2025年4月現在）",
+          "abbreviation": "jeki"
         },
         {
           "name": "JR東日本メディア株式会社",
@@ -322,7 +355,8 @@
           "description": "駅構内広告媒体の企画・運営",
           "founded": "1967年10月21日",
           "capital": "1億462万5千円",
-          "employees": "633名（2024年度実績）"
+          "employees": "633名（2024年度実績）",
+          "abbreviation": "JRM"
         },
         {
           "name": "株式会社オレンジページ",
@@ -331,7 +365,8 @@
           "description": "料理雑誌『オレンジページ』等の出版事業",
           "founded": "1988年2月12日",
           "capital": "5,000万円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         },
         {
           "name": "JRE Ventures Pte. Ltd.",
@@ -340,7 +375,8 @@
           "description": "海外投資・事業開発拠点",
           "founded": "2024年4月1日（シンガポールで法人登記）",
           "capital": null,
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         }
       ]
     },
@@ -356,7 +392,8 @@
           "description": "駅ビル商業施設「アトレ」の運営",
           "founded": "1990年4月",
           "capital": "16億3,000万円",
-          "employees": "414名（2026年3月31日現在）"
+          "employees": "414名（2026年3月31日現在）",
+          "abbreviation": null
         },
         {
           "name": "株式会社ルミネ",
@@ -365,7 +402,8 @@
           "description": "駅ビル商業施設「ルミネ」「ニュウマン」の運営",
           "founded": "1966年",
           "capital": "23億7,520万円",
-          "employees": "825名（2026年4月1日現在、他社からの出向者等を含む）"
+          "employees": "825名（2026年4月1日現在、他社からの出向者等を含む）",
+          "abbreviation": null
         },
         {
           "name": "株式会社JR横浜湘南シティクリエイト",
@@ -374,7 +412,8 @@
           "description": "横浜・湘南エリアの駅ビル運営",
           "founded": "2024年4月1日",
           "capital": "2億円",
-          "employees": "188名（2025年4月1日時点、パート除く）"
+          "employees": "188名（2025年4月1日時点、パート除く）",
+          "abbreviation": null
         },
         {
           "name": "株式会社JR中央線コミュニティデザイン",
@@ -383,7 +422,8 @@
           "description": "中央線エリアの駅ビル「セレオ」等の運営",
           "founded": "2021年4月1日（前身の株式会社JR中央ラインモールは2010年12月設立）",
           "capital": "12億3,000万円",
-          "employees": "268名（2025年12月現在）"
+          "employees": "268名（2025年12月現在）",
+          "abbreviation": null
         },
         {
           "name": "ジェイアール東日本商業開発株式会社",
@@ -392,7 +432,8 @@
           "description": "「グランデュオ」等の商業施設運営",
           "founded": "1997年4月",
           "capital": "11億4,000万円",
-          "employees": "120名"
+          "employees": "120名",
+          "abbreviation": null
         },
         {
           "name": "株式会社錦糸町ステーションビル",
@@ -401,7 +442,8 @@
           "description": "錦糸町駅ビル「テルミナ」の運営",
           "founded": "1960年5月4日",
           "capital": "1億6,000万円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         },
         {
           "name": "株式会社千葉ステーションビル",
@@ -410,7 +452,8 @@
           "description": "千葉駅ビル「ペリエ」の運営",
           "founded": "1961年8月1日",
           "capital": "2億円",
-          "employees": "204名（2025年4月現在）"
+          "employees": "204名（2025年4月現在）",
+          "abbreviation": null
         },
         {
           "name": "株式会社JR東日本青森商業開発",
@@ -419,7 +462,8 @@
           "description": "青森エリアの商業施設運営",
           "founded": "2010年5月",
           "capital": "2億8,000万円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         },
         {
           "name": "JR東日本新潟シティクリエイト株式会社",
@@ -428,7 +472,8 @@
           "description": "新潟エリアの駅ビル運営",
           "founded": "1989年3月2日（2020年10月1日に現商号へ変更）",
           "capital": "4億円",
-          "employees": "486名（2024年11月時点）"
+          "employees": "486名（2024年11月時点）",
+          "abbreviation": "JENIC"
         },
         {
           "name": "株式会社ステーションビルMIDORI",
@@ -437,7 +482,8 @@
           "description": "長野駅ビル「MIDORI」の運営",
           "founded": "1983年4月8日",
           "capital": "4億5,000万円",
-          "employees": "296名"
+          "employees": "296名",
+          "abbreviation": null
         },
         {
           "name": "株式会社JR東日本ビルディング",
@@ -446,7 +492,8 @@
           "description": "ビル賃貸・不動産管理事業",
           "founded": "2005年7月1日",
           "capital": "4億8,000万円",
-          "employees": "227名（2026年4月現在）"
+          "employees": "227名（2026年4月現在）",
+          "abbreviation": "JEBL"
         },
         {
           "name": "日本ホテル株式会社",
@@ -455,7 +502,8 @@
           "description": "ホテルメトロポリタン等のホテル運営",
           "founded": "1981年11月",
           "capital": "5億円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         },
         {
           "name": "仙台ターミナルビル株式会社",
@@ -464,7 +512,8 @@
           "description": "仙台駅ビル・ホテル運営",
           "founded": "1976年4月5日",
           "capital": "18億円",
-          "employees": "537名（2025年3月期時点）"
+          "employees": "537名（2025年3月期時点）",
+          "abbreviation": null
         },
         {
           "name": "盛岡ターミナルビル株式会社",
@@ -473,7 +522,8 @@
           "description": "盛岡駅ビル運営",
           "founded": "1979年4月",
           "capital": "9億円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         },
         {
           "name": "秋田ステーションビル株式会社",
@@ -482,7 +532,8 @@
           "description": "秋田駅ビル運営",
           "founded": "1960年11月26日",
           "capital": "4億5,000万円",
-          "employees": "145名"
+          "employees": "145名",
+          "abbreviation": null
         },
         {
           "name": "JR東日本スポーツ株式会社",
@@ -491,7 +542,8 @@
           "description": "フィットネスクラブ等のスポーツ施設運営",
           "founded": "1978年3月1日",
           "capital": "4億円",
-          "employees": "1,241名"
+          "employees": "1,241名",
+          "abbreviation": null
         },
         {
           "name": "株式会社ガーラ湯沢",
@@ -500,7 +552,8 @@
           "description": "スキー場「GALA湯沢」の運営",
           "founded": "1999年11月4日",
           "capital": "3億円",
-          "employees": "45名"
+          "employees": "45名",
+          "abbreviation": null
         },
         {
           "name": "株式会社ジェイアール東日本都市開発",
@@ -509,7 +562,8 @@
           "description": "都市開発・不動産事業",
           "founded": "1989年4月20日",
           "capital": "14億5,000万円",
-          "employees": "711名（2025年7月時点）"
+          "employees": "711名（2025年7月時点）",
+          "abbreviation": null
         },
         {
           "name": "JR東日本不動産投資顧問株式会社",
@@ -518,7 +572,8 @@
           "description": "不動産投資顧問業（REIT運用等）",
           "founded": "2021年5月",
           "capital": "3億円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         },
         {
           "name": "JR東日本不動産株式会社",
@@ -527,7 +582,8 @@
           "description": "不動産開発・賃貸事業",
           "founded": "2024年7月1日",
           "capital": "10億円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         }
       ]
     },
@@ -543,7 +599,8 @@
           "description": "グループのITシステム開発・運用（通称JEIS）",
           "founded": "1989年11月24日",
           "capital": "5億円",
-          "employees": "1,755名（2026年4月1日現在）"
+          "employees": "1,755名（2026年4月1日現在）",
+          "abbreviation": "JEIS"
         },
         {
           "name": "株式会社JR東日本マネジメントサービス",
@@ -552,7 +609,8 @@
           "description": "総務・経理等の間接業務受託",
           "founded": "1998年4月",
           "capital": "8,000万円",
-          "employees": null
+          "employees": null,
+          "abbreviation": "JEMS"
         },
         {
           "name": "株式会社JR東日本パーソネルサービス",
@@ -561,7 +619,8 @@
           "description": "人材派遣・人事関連サービス",
           "founded": "2002年10月1日",
           "capital": "1億円",
-          "employees": null
+          "employees": null,
+          "abbreviation": "JEPS"
         },
         {
           "name": "株式会社JR東日本グリーンパートナーズ",
@@ -570,7 +629,8 @@
           "description": "障害者雇用促進を担う特例子会社",
           "founded": "2008年4月15日",
           "capital": "1億円",
-          "employees": null
+          "employees": null,
+          "abbreviation": null
         },
         {
           "name": "株式会社ビューカード",
@@ -579,7 +639,8 @@
           "description": "「ビューカード」の発行・Suica連携クレジットカード事業",
           "founded": "2009年10月",
           "capital": "50億円",
-          "employees": "612名（2025年4月1日現在）"
+          "employees": "612名（2025年4月1日現在）",
+          "abbreviation": null
         },
         {
           "name": "JR東日本コンサルタンツ株式会社",
@@ -588,7 +649,8 @@
           "description": "鉄道土木・建築コンサルティング",
           "founded": "1989年4月1日",
           "capital": "5,000万円",
-          "employees": "735名（2025年4月現在）"
+          "employees": "735名（2025年4月現在）",
+          "abbreviation": "JRC"
         },
         {
           "name": "JR東日本メカトロニクス株式会社",
@@ -597,7 +659,8 @@
           "description": "自動改札機・券売機等の保守・製造",
           "founded": "1992年4月",
           "capital": "1億円",
-          "employees": "1,430名（2026年4月現在）"
+          "employees": "1,430名（2026年4月現在）",
+          "abbreviation": "JREM"
         },
         {
           "name": "日本コンサルタンツ株式会社",
@@ -606,7 +669,8 @@
           "description": "鉄道分野の海外コンサルティング事業",
           "founded": "2011年11月1日",
           "capital": "4億9,500万円",
-          "employees": null
+          "employees": null,
+          "abbreviation": "JIC"
         },
         {
           "name": "GATES PCM CONSTRUCTION LTD.",
@@ -615,7 +679,8 @@
           "description": "海外建設事業",
           "founded": "2000年7月4日（シンガポール登記日、ACRA/UEN 200005840G）",
           "capital": "SGD 2,000,000（払込資本金）",
-          "employees": null
+          "employees": null,
+          "abbreviation": "GATES"
         },
         {
           "name": "JR東日本エネルギー開発株式会社",
@@ -624,7 +689,8 @@
           "description": "再生可能エネルギー等の開発事業",
           "founded": "2015年4月1日",
           "capital": "5,000万円",
-          "employees": "47名"
+          "employees": "47名",
+          "abbreviation": "JED"
         },
         {
           "name": "新宿南エネルギーサービス株式会社",
@@ -633,7 +699,8 @@
           "description": "地域冷暖房等のエネルギーサービス",
           "founded": "1992年4月",
           "capital": null,
-          "employees": null
+          "employees": null,
+          "abbreviation": "SES"
         },
         {
           "name": "株式会社えきまちエナジークリエイト",
@@ -642,7 +709,8 @@
           "description": "駅・まちのエネルギーマネジメント事業",
           "founded": "2020年4月7日",
           "capital": "4億9,500万円",
-          "employees": "約10名（正確な公式数値は未確認）"
+          "employees": "約10名（正確な公式数値は未確認）",
+          "abbreviation": null
         },
         {
           "name": "JR東日本スタートアップ株式会社",
@@ -651,7 +719,8 @@
           "description": "スタートアップとのオープンイノベーション推進",
           "founded": "2018年2月20日",
           "capital": "4億9,500万円",
-          "employees": "14名"
+          "employees": "14名",
+          "abbreviation": null
         }
       ]
     }

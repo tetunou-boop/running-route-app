@@ -128,7 +128,7 @@
 
   function matchesQuery(company, query) {
     if (!query) return true;
-    const target = `${company.name} ${company.description} ${company.hq}`.toLowerCase();
+    const target = `${company.name} ${company.abbreviation || ""} ${company.description} ${company.hq}`.toLowerCase();
     return target.includes(query.toLowerCase());
   }
 
@@ -154,6 +154,13 @@
     const name = document.createElement("h3");
     name.className = "company-card__name";
     name.textContent = company.name;
+    if (company.abbreviation) {
+      const abbr = document.createElement("span");
+      abbr.className = "company-card__abbr";
+      abbr.textContent = company.abbreviation;
+      name.appendChild(document.createTextNode(" "));
+      name.appendChild(abbr);
+    }
 
     const segmentBadge = document.createElement("span");
     segmentBadge.className = "company-card__segment";
@@ -214,6 +221,13 @@
   function showModal(company) {
     els.modalSegment.textContent = company.segmentName;
     els.modalTitle.textContent = company.name;
+    if (company.abbreviation) {
+      const abbr = document.createElement("span");
+      abbr.className = "modal-abbr";
+      abbr.textContent = company.abbreviation;
+      els.modalTitle.appendChild(document.createTextNode(" "));
+      els.modalTitle.appendChild(abbr);
+    }
     els.modalHq.textContent = company.hq;
 
     const facts = [
