@@ -27,19 +27,35 @@ index.html               エントリーポイント
 css/styles.css           スタイル
 js/app.js                検索・フィルタ・モーダルのロジック
 data/group_companies.json  会社データ（更新時はこのファイルを差し替えるだけでOK）
+dist/index.html           CSS・JS・データを1ファイルに埋め込んだ配布用HTML（Netlify等へのデプロイ用）
 ```
 
 ## ローカルでの起動方法
 
-`fetch` でJSONを読み込むため、簡易HTTPサーバー経由で開いてください（`file://` では動作しません）。
+`index.html` は `fetch` でJSONを読み込むため、簡易HTTPサーバー経由で開いてください（`file://` では動作しません）。
 
 ```bash
 python3 -m http.server 8000
 # ブラウザで http://localhost:8000/ を開く
 ```
 
+`dist/index.html` はCSS・JS・データがすべて1ファイルに埋め込まれているため、`file://` で直接開いても動作します。
+
+## Netlifyへのデプロイ
+
+`dist/index.html` をそのままNetlifyのドラッグ&ドロップデプロイ画面に投げ込むだけで公開できます
+（1ファイル完結・外部依存なし）。`index.html`/`css`/`js`/`data` 一式のフォルダをデプロイする場合も、
+静的サイトとしてそのまま動作します。
+
+`data/group_companies.json`、`index.html`、`css/styles.css`、`js/app.js` のいずれかを更新した場合、
+`dist/index.html` には自動反映されません。以下のスクリプトで再生成してください。
+
+```bash
+python3 scripts/build_dist.py
+```
+
 ## データの更新
 
-`data/group_companies.json` を最新の公式情報に差し替えるだけで反映されます。
+`data/group_companies.json` を最新の公式情報に差し替えるだけで反映されます（`index.html` 利用時）。
 更新時は `meta.last_checked` の日付も更新してください。
 出典: [JR東日本公式サイト「グループ会社一覧」](https://www.jreast.co.jp/company/about/group/)
