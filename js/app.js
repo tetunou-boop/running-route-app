@@ -298,7 +298,7 @@
     els.cardGrid.innerHTML = "";
     filtered.forEach((company) => els.cardGrid.appendChild(createCard(company)));
 
-    els.resultCount.textContent = `全${state.companies.length}社中 ${filtered.length}社を表示`;
+    els.resultCount.textContent = `掲載${state.companies.length}社中 ${filtered.length}社を表示`;
     els.emptyState.hidden = filtered.length !== 0;
   }
 
